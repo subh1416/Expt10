@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognitive Application Development</title>
+    <!-- Load Google Charts and D3.js -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Load external script -->
+    <script src="./script.js" defer></script> <!-- Ensure defer attribute for proper execution order -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        #chart_div, #d3-chart {
+            width: 50%;
+            height: 400px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Management </h1>
+
+    <!-- Google Charts Pie Chart -->
+    <h2>Types of events</h2>
+    <div id="chart_div"></div>
+
+    <!-- D3.js Bar Chart -->
+    <h2>Time spent</h2>
+    <div id="d3-chart"></div>
+</body>
+</html>
